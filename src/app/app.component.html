@@ -1,0 +1,10 @@
+<div class="container">
+    <div style="margin-bottom: 20px;">
+        <button mat-raised-button [routerLink]="['']">Home</button>
+        <button mat-raised-button [routerLink]="['/servers']">Servers</button>
+        <button mat-raised-button [routerLink]="['/users']">Users</button>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
